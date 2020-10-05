@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+server creates a new note object
+and returns the message "note created"
+end note
+
+server-->browser: HTML-code
